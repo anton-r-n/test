@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: 13px/1.4 'Helvetica', 'Arial', 'Freesans', sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.header {
+  margin: 2em 0 .5em 3em;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 130%;
+  font-weight: 200;
+}
+
+ul {
+  margin: 0 auto 0 2em;
+  padding: 0;
+  line-height: 1.4;
+  width: 50em;
+  list-style: none;
+}
+
+li {
+  padding: 1px 1em;
+  margin-bottom: 1px;
+}
+
+li.pass {
+  background-color: #d7e6a4;
+}
+
+li.fail {
+  background-color: #e6bba3;
+}
+
+.total {
+  margin: .2em 0 2em 2em;
+  padding: .5em 1em 0 1em;
+}
