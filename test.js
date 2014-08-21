@@ -28,6 +28,7 @@
 
 assert('Assert function should exist', assert);
 assert('Correct assertion should pass', true);
+assert('Styles should hide long string and add ellipsis to the text', true);
 assert('Incorrect assertion should fail', false);
 assert('Empty assertion should fail');
 assert.total();
