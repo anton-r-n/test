@@ -24,11 +24,16 @@ ul {
   line-height: 1.4;
   width: 50em;
   list-style: none;
+  max-width: 80%;
 }
 
 li {
   padding: 1px 1em;
   margin-bottom: 1px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 li.pass {
